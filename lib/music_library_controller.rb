@@ -7,6 +7,7 @@ music = MusicImporter.new(path)
 music.import
 end
 def call
+  input = nil
   while input != "exit"
       puts "Welcome to your music library!"
       puts "To list all of your songs, enter 'list songs'."
